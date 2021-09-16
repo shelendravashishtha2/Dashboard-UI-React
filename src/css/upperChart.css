@@ -1,0 +1,52 @@
+.upper-chart{
+    min-height: 20vh;
+    height: fit-content;
+    width: 30%;
+    padding: 10px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    border : 1.5px solid rgb(70, 68, 68)
+}
+
+.fline{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 0.8rem;
+     color: var(--difuse-white);
+}
+
+.lcontent p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CircularProgressbar{
+    width: 25% !important;
+}
+
+.lcontent h1{
+    color: var(--difuse-white);
+}
+
+
+
+.upper-chart.active{
+    background: var(--project-blue);
+}
+
+.upper-chart.active .fline{
+    color: white;
+}
+
+.upper-chart.active .sline h1{
+    color: white;
+}

@@ -1,0 +1,109 @@
+.third-sline {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.third-sline .chart-container {
+  height: 100%;
+  padding: 10px;
+  width: 65%;
+  display: flex;
+  margin-right: 10px;
+  border-radius: 18px;
+  border: 1.5px solid rgb(70, 68, 68);
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.third-sline .label-container {
+  height: 100%;
+  width: 35%;
+  border-radius: 18px;
+  border: 1.5px solid rgb(70, 68, 68);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.res-pie{
+  height: 70% !important;
+  width: 70% !important;
+  align-self: center;
+}
+
+.third-sline .stats-intro {
+  color: var(--difuse-white);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fe5260;
+}
+
+.in-content span {
+  display: block;
+  color: var(--difuse-white);
+}
+
+.stats-card-container{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.stats-card{
+  width: 25%;
+  height: 100%;
+  color: var(--difuse-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right .transform-icon{
+  display: block;
+  transform: rotate(-0.1turn);
+  padding-right: 4px;
+}
+
+.rich-text{
+  display: flex;
+  color: var(--project-blue);
+}
+
+.vert-sepr{
+  height: 60%;
+  width: 1px;
+  background: rgb(70, 68, 68);
+}
+
+.third-sline button{
+  padding: 15px 18px;
+}
+
+.btn-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.third-sline button.active{
+  background: var(--project-blue);
+}
+
+.third-sline button.inactive{
+  background: #fe5260;
+}

@@ -1,0 +1,90 @@
+.contact-container {
+  position: relative;
+  width: 25%;
+  color: var(--difuse-white);
+  border-top-left-radius: 18px;
+  border: 1.5px solid rgb(70, 68, 68);
+}
+
+.contact-container .img-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 30%;
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.contacts {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  height: 70%;
+  background: #222328;
+  border-radius: 14% 14% 0 0;
+
+  overflow-y: scroll;
+}
+
+.contacts-intro {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .profile-pic {
+  display: flex;
+  align-items: center;
+  width: 30px;
+}
+
+.card .profile-pic span {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.card .con-details {
+  line-height: 1px;
+}
+.card .con-details h4 {
+  font-size: 14px;
+}
+.card .con-details p {
+  font-size: 10px;
+}
+
+.card .con-details p span {
+  color: var(--project-blue);
+}
+
+.con-card-btn {
+  display: flex;
+}
+
+.con-card-btn .card-btn {
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3b3b3b;
+  border-radius: 50%;
+}
+
+.con-card-btn .card-btn span {
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,100 @@
+.second-sline {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-sline .chart-container {
+  height: 100%;
+  width: 65%;
+  display: flex;
+  margin-right: 10px;
+  border-radius: 18px;
+  border: 1.5px solid rgb(70, 68, 68);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.second-sline .label-container {
+  height: 100%;
+  width: 35%;
+  border-radius: 18px;
+  border: 1.5px solid rgb(70, 68, 68);
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-container-fline {
+  width: 100%;
+  padding: 0px 8px;
+  color: var(--difuse-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart-container-fline ul {
+  display: flex;
+}
+
+.chart-container-fline li {
+  padding: 0px 5px;
+  list-style: none;
+}
+
+.chart-container-fline .download-report {
+  display: flex;
+}
+
+.label-container h5{
+    color: var(--difuse-white);
+    padding-left: 10px;
+}
+
+.label-container ul{
+    padding: 0;
+}
+.label-container ul li{
+    list-style: none;
+}
+
+.line-meter{
+    color: var(--difuse-white);
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line-meter div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+}
+
+
+.line-meter div p{
+    font-weight: 1000;
+    padding-right: 5px;
+}
+
+.lin-progress-bar{
+    position: relative;
+    width: 55%;
+    height: 8px;
+    background: #aaa;
+    border-radius: 18px;
+}
+
+.filled{
+    position: absolute;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    left: 0;
+    height: 8px;
+}

@@ -1,0 +1,6 @@
+.chart-main-container {
+  width: 75%;
+  padding: 25px;
+  overflow-y: scroll;
+}
+

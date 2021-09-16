@@ -1,0 +1,7 @@
+.btn-primary{
+    padding:5px 12px;
+    background: var(--project-blue);
+    outline: none;
+    border: none;
+    color: rgb(238, 237, 237);
+}

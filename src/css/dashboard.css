@@ -1,0 +1,67 @@
+.dashboard {
+  height: 100vh;
+  width: 95vw;
+  overflow: hidden;
+  background: var(--primary-color);
+}
+
+.dashboard-intro {
+  height: 15vh;
+  display: flex;
+  color: var(--difuse-white);
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.r-intro .fline {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.profile-pic img {
+  height: 30px;
+  border-radius: 50%;
+  padding: 0 5px;
+}
+
+.l-intro h5 span {
+  color: var(--project-blue);
+}
+
+.r-intro b {
+  padding: 0 6px;
+}
+
+.sline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.input-container span {
+  padding: 0 10px;
+}
+
+.input-container input {
+  background: var(--primary-color);
+  border: none;
+  color: var(--difuse-white);
+}
+
+.input-container input:focus {
+  outline: none;
+  border: none;
+}
+
+.input-container input::placeholder {
+  color: var(--difuse-white);
+}
