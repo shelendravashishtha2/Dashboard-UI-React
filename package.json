@@ -1,5 +1,6 @@
 {
- "name": "assignment",
+  "homepage": "https://dashboard--ui.herokuapp.com/",
+  "name": "assignment",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
