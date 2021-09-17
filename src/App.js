@@ -17,31 +17,31 @@ let App = () => {
       <Router>
         <Sidebar />
         <Switch>
-          <Route path="/stats">
+          <Route path="/Dashboard-UI-React/stats">
             <Statistic />
           </Route>
-          <Route path="/logout">
+          <Route path="/Dashboard-UI-React/logout">
             <Logout />
           </Route>
-          <Route path="/people">
+          <Route path="/Dashboard-UI-React/people">
             <People />
           </Route>
-          <Route path="/schedule">
+          <Route path="/Dashboard-UI-React/schedule">
             <Schedule />
           </Route>
-          <Route path="/settings">
+          <Route path="/Dashboard-UI-React/settings">
             <Setting />
           </Route>
-          <Route path="/business">
+          <Route path="/Dashboard-UI-React/business">
             <Business />
           </Route>
-          <Route path="/chat">
+          <Route path="/Dashboard-UI-React/chat">
             <Chat />
           </Route>
-          <Route path="/dir">
+          <Route path="/Dashboard-UI-React/dir">
             <Dir />
           </Route>
-          <Route path="/">
+          <Route path="/Dashboard-UI-React/">
             <Dashboard />
           </Route>
         </Switch>

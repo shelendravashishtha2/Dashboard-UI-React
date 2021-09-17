@@ -20,7 +20,7 @@ const Sidebar = () => {
             <li
               className="icon active"
               onClick={() => {
-                changeSide(0, "/");
+                changeSide(0, "/Dashboard-UI-React/");
               }}
             >
               <span className="material-icons-outlined">home</span>
@@ -28,7 +28,7 @@ const Sidebar = () => {
             <li
               className="icon"
               onClick={() => {
-                changeSide(1, "/stats");
+                changeSide(1, "/Dashboard-UI-React/stats");
               }}
             >
               <span className="material-icons-outlined">assessment</span>
@@ -36,7 +36,7 @@ const Sidebar = () => {
             <li
               className="icon"
               onClick={() => {
-                changeSide(2, "/business");
+                changeSide(2, "/Dashboard-UI-React/business");
               }}
             >
               <span className="material-icons-outlined">work_outline</span>
@@ -44,7 +44,7 @@ const Sidebar = () => {
             <li
               className="icon"
               onClick={() => {
-                changeSide(3, "/dir");
+                changeSide(3, "/Dashboard-UI-React/dir");
               }}
             >
               <span className="material-icons">folder</span>
@@ -52,7 +52,7 @@ const Sidebar = () => {
             <li
               className="icon"
               onClick={() => {
-                changeSide(4, "/schedule");
+                changeSide(4, "/Dashboard-UI-React/schedule");
               }}
             >
               <span className="material-icons">today</span>
@@ -60,7 +60,7 @@ const Sidebar = () => {
             <li
               className="icon"
               onClick={() => {
-                changeSide(5, "/people");
+                changeSide(5, "/Dashboard-UI-React/people");
               }}
             >
               <span className="material-icons">group</span>
@@ -68,7 +68,7 @@ const Sidebar = () => {
             <li
               className="icon"
               onClick={() => {
-                changeSide(6, "/chat");
+                changeSide(6, "/Dashboard-UI-React/chat");
               }}
             >
               <span className="material-icons">sms</span>
@@ -76,7 +76,7 @@ const Sidebar = () => {
             <li
               className="icon"
               onClick={() => {
-                changeSide(7, "/logout");
+                changeSide(7, "/Dashboard-UI-React/logout");
               }}
             >
               <span className="material-icons">logout</span>
@@ -87,7 +87,7 @@ const Sidebar = () => {
           className="settings"
           onClick={() => {
             history.index = 0;
-            history.push("/settings");
+            history.push("/Dashboard-UI-React/settings");
           }}
         >
           <span className="material-icons">settings</span>
